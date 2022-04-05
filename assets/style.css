@@ -58,3 +58,12 @@ footer{
 }
 
 /* dark mode */
+body.dark-mode{
+    background-color:var(--dark);
+    color:var(--light);
+}
+
+body.dark-mode button{
+    background-color:var(--light);
+    color:var(--dark);
+}
