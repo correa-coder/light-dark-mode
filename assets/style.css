@@ -1,5 +1,13 @@
-root:{
+:root{
     --light-gray:rgb(158, 158, 158);
     --light: rgb(199, 199, 199);
     --dark: rgb(63, 63, 63);
+}
+
+
+
+footer{
+    background-color:var(--dark);
+    color:var(--light);
+    text-align:center;
 }
