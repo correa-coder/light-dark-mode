@@ -14,12 +14,21 @@ body{
     color:var(--dark);
 }
 
+.container{
+    position:relative;
+    height:100vh;
+}
+
 
 footer{
     background-color:var(--dark);
     color:var(--light);
     text-align:center;
     padding:1em;
+    position:absolute;
+    width:100%;
+    bottom:0;
+    box-sizing:border-box;
 }
 
 /* dark mode */
