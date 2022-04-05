@@ -1,9 +1,18 @@
 :root{
     --light-gray:rgb(158, 158, 158);
-    --light: rgb(199, 199, 199);
+    --light: rgb(231, 231, 231);
     --dark: rgb(63, 63, 63);
 }
 
+/* light mode */
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:var(--light);
+    color:var(--dark);
+}
 
 
 footer{
@@ -11,3 +20,5 @@ footer{
     color:var(--light);
     text-align:center;
 }
+
+/* dark mode */
