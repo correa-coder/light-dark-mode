@@ -19,6 +19,18 @@ body{
     height:100vh;
 }
 
+main{
+    width:fit-content;
+    position:absolute;
+    left:50%;
+    top:45%;
+    transform:translate(-50%, -50%);
+}
+
+h1{
+    margin:0;
+}
+
 
 footer{
     background-color:var(--dark);
